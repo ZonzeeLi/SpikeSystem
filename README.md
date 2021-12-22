@@ -18,8 +18,9 @@ hmset ticket_hash_key "ticket_total_nums" 10000 "ticket_sold_nums" 0
 ```启动项目
 go run main.go
 ```
-并发测试
+并发测试go-wrk工具
 ```并发测试
+git clone git://github.com/adeven/go-wrk.git
 cd go-wrk
 go-wrk -c=100  -n=10000 http://127.0.0.1:3005/buy/ticket
 ```
