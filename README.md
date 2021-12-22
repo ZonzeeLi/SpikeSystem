@@ -1,6 +1,6 @@
 ### SpikeSytem 
 
-本项目是在 https://github.com/GuoZhaoran/spikeSystem 开源项目的基础上，主要进行一些web 开发的脚手架补充([GVA](https://www.gin-vue-admin.com/) 的脚手架方法)，内容并不多，因原项目的思想非常值得了解，所以自己才简易地二次开发了一下。
+&emsp;&emsp;本项目是在 https://github.com/GuoZhaoran/spikeSystem 开源项目的基础上，主要进行一些web 开发的脚手架补充([GVA](https://www.gin-vue-admin.com/) 的脚手架方法)，内容并不多，因原项目的思想非常值得了解，所以自己才简易地二次开发了一下。
 
 主要添加为gin框架、viper读配置、zap自定义日志、go-redis、go-wrk。原作者的思路在[README_GuoZhaoran](./README_GuoZhaoran.md)
 
