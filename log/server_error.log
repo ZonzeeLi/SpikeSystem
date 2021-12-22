@@ -1,0 +1,2 @@
+[SpikeSystem]2021/12/22 - 14:50:14.827	[31merror[0m	D:/DevelopTask/spikesystem/dao/redis/redis.go:33	redis connect ping failed, err:	{"error": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+[SpikeSystem]2021/12/22 - 14:53:59.904	[31merror[0m	D:/DevelopTask/spikesystem/dao/redis/redis.go:33	redis connect ping failed, err:	{"error": "dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}

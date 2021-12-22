@@ -1,0 +1,22 @@
+# system configuration
+system:
+  name: 'SpikeSystem'
+  port: 3005
+
+# zap logger configuration
+zap:
+  level: 'info'
+  format: 'console'
+  prefix: '[SpikeSystem]'
+  director: 'log'
+  show-line: true
+  encode-level: 'LowercaseColorLevelEncoder'
+  stacktrace-key: 'stacktrace'
+  log-in-console: true
+
+# redis configuration
+redis:
+  db: 0
+  host: '127.0.0.1'
+  port: 6379
+  password: ''
